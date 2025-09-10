@@ -1,0 +1,44 @@
+/* สไตล์พื้นฐาน */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+/* สไตล์สำหรับ Parallax */
+.parallax {
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.first {
+    background-image: url('file:///C:/Users/User/Downloads/Hey-BU-Blog-Headers.jpg'); /* เปลี่ยนลิงก์เป็นภาพของคุณ */
+}
+
+.second {
+    background-image: url('file:///C:/Users/User/Downloads/58459053_9299765.jpg'); /* เปลี่ยนลิงก์เป็นภาพของคุณ */
+}
+
+/* กล่องสีดำ */
+.black-box {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* ข้อความในแต่ละส่วน */
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 2;
+}
