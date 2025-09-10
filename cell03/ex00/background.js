@@ -1,7 +1,5 @@
-// ตัวแปรที่เก็บปุ่ม
 const button = document.getElementById('changeColorBtn');
 
-// ฟังก์ชันสำหรับสุ่มสี
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -11,7 +9,7 @@ function getRandomColor() {
     return color;
 }
 
-// เมื่อคลิกปุ่มจะเปลี่ยนสีพื้นหลัง
 button.addEventListener('click', () => {
     document.body.style.backgroundColor = getRandomColor();
 });
+
