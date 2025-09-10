@@ -1,31 +1,30 @@
-/* สไตล์พื้นฐานของตาราง */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
 
-/* กำหนดการจัดการช่องและแถว */
 th, td {
     padding: 20px;
     text-align: center;
 }
 
-/* สีพื้นหลังของแต่ละเซลล์ */
+
 .first-cell {
-    background-color: #8bc34a; /* สีเขียว */
+    background-color: #8bc34a; 
     color: white;
 }
 
 .second-cell {
-    background-color: #ff7043; /* สีส้ม */
+    background-color: #ff7043; 
     color: white;
 }
 
-/* การปรับขนาดเมื่อหน้าจอเล็กลง (Max-width: 600px) */
+
 @media (max-width: 600px) {
     th, td {
         padding: 10px;
         font-size: 12px;
     }
 }
+
