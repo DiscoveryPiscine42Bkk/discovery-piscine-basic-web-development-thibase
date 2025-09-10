@@ -1,0 +1,14 @@
+// ฟังก์ชันสุ่มสี
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+// เมื่อคลิกปุ่มจะเปลี่ยนสีพื้นหลัง
+$('#changeColorBtn').click(function() {
+    $('body').css('background-color', getRandomColor());
+});
