@@ -1,0 +1,19 @@
+/* ตั้งค่าเบื้องต้นสำหรับ body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* สไตล์สำหรับ balloon */
+.balloon {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
