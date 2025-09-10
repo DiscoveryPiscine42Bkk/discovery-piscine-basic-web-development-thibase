@@ -1,4 +1,4 @@
-// ฟังก์ชันสุ่มสี
+
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -8,7 +8,8 @@ function getRandomColor() {
     return color;
 }
 
-// เมื่อคลิกปุ่มจะเปลี่ยนสีพื้นหลัง
+
 $('#changeColorBtn').click(function() {
     $('body').css('background-color', getRandomColor());
 });
+
