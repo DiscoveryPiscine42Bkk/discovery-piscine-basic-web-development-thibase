@@ -1,4 +1,4 @@
-/* ตั้งค่าพื้นฐาน */
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -45,3 +45,4 @@ button:hover {
 .todo-item:hover {
     background-color: #bdc3c7;
 }
+
