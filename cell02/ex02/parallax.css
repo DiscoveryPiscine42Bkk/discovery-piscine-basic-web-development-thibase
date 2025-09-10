@@ -1,4 +1,4 @@
-/* สไตล์พื้นฐาน */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ body, html {
     height: 100%;
 }
 
-/* สไตล์สำหรับ Parallax */
+
 .parallax {
     position: relative;
     background-size: cover;
@@ -28,7 +28,7 @@ body, html {
     background-image: url('file:///C:/Users/User/Downloads/58459053_9299765.jpg'); /* เปลี่ยนลิงก์เป็นภาพของคุณ */
 }
 
-/* กล่องสีดำ */
+
 .black-box {
     background-color: black;
     color: white;
@@ -36,9 +36,10 @@ body, html {
     text-align: center;
 }
 
-/* ข้อความในแต่ละส่วน */
+
 .text {
     font-size: 24px;
     font-weight: bold;
     z-index: 2;
 }
+
