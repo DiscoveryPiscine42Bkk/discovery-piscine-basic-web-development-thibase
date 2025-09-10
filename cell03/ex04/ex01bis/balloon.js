@@ -22,7 +22,7 @@ function getBalloonColor(size) {
     else return 'blue';
 }
 
-// เมื่อเมาส์เข้าออกจากลูกโป่ง
+
 $('#balloon').mouseenter(function() {
     let currentSize = parseInt($(this).width());
     if (currentSize > 200) {
@@ -34,3 +34,4 @@ $('#balloon').mouseenter(function() {
         });
     }
 });
+
